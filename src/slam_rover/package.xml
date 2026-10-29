@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>slam_rover</name>
+  <version>0.0.0</version>
+  <description>Differential-drive rover with simulated camera, lidar, SLAM and navigation launch files.</description>
+  <maintainer email="krrishbhansali2005@gmail.com">Krrish Bhansali</maintainer>
+  <!-- Apache-2.0 applies to original contributions and identified Apache-licensed
+       material only. Reused robot assets have unresolved upstream terms.
+       See LICENSE, NOTICE and docs/LICENSING.md for scope. -->
+  <license>Apache-2.0</license>
+  <license>LicenseRef-Upstream-Unspecified</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>gazebo_plugins</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>slam_toolbox</exec_depend>
+  <exec_depend>nav2_bringup</exec_depend>
+  <exec_depend>nav2_map_server</exec_depend>
+  <exec_depend>v4l2_camera</exec_depend>
+  <exec_depend>rplidar_ros</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CycloneDDS xmlns="https://cdds.io/config">
+  <Domain Id="any">
+    <Discovery>
+      <!-- Allow the simulator, localization, Nav2, RViz, and CLI tools
+           to coexist when localhost-only discovery uses participant indices. -->
+      <ParticipantIndex>auto</ParticipantIndex>
+      <MaxAutoParticipantIndex>99</MaxAutoParticipantIndex>
+    </Discovery>
+  </Domain>
+</CycloneDDS>

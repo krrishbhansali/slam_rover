@@ -1,0 +1,14 @@
+Slam Rover
+
+Original contributions copyright 2026 Krrish Bhansali.
+Apache License, Version 2.0 applies only to original contributions and material
+whose upstream Apache-2.0 terms have been established.
+
+Licensing for some inherited robot-description and tutorial-derived resources
+remains unresolved. No license grant is asserted for those inherited portions.
+LicenseRef-Upstream-Unspecified records that uncertainty.
+
+Nav2-derived configuration and RViz resources retain their upstream Apache-2.0
+terms. Existing third-party license terms continue to apply.
+
+See docs/LICENSING.md in the package for scope and the remaining release issue.
